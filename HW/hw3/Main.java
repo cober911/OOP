@@ -1,13 +1,13 @@
-package HW.hw2;
+package HW.hw3;
 
 import java.util.ArrayList;
 
-import HW.hw2.animals.Lion;
-import HW.hw2.animals.Wolf;
-import HW.hw2.cage.LionCage;
-import HW.hw2.cage.WolfCage;
-import HW.hw2.factory.LionsFactory;
-import HW.hw2.factory.WolfsFactory;
+import HW.hw3.animals.Lion;
+import HW.hw3.animals.Wolf;
+import HW.hw3.cage.LionCage;
+import HW.hw3.cage.WolfCage;
+import HW.hw3.factory.LionsFactory;
+import HW.hw3.factory.WolfsFactory;
 
 public class Main {
 
@@ -20,6 +20,7 @@ public class Main {
         ArrayList<Wolf> wolfs = WolfsFactory.createWolfs(10);
         WolfCage wolfInCage = new WolfCage(wolfs);
         System.out.println(wolfInCage);
-
+        
+  
     }
 }
